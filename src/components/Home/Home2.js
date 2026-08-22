@@ -17,21 +17,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body" style={{ fontSize: "2.6em",color: "black" }}>
-               I like to make Predictive Models and I'm Passionate about
-              Machine Learning.
+               I build LLM-powered agents and RAG systems, and I'm passionate about
+              turning ambiguous business problems into evaluated, production-ready AI.
               <br />
-              <br />I am fluent in Tech Stack like
+              <br />I am fluent in a tech stack like
               <i>
-                <b className="purple"> Python ( Pandas,Numpy,Scikit-learn), GCP, AWS, Airflow. </b>
+                <b className="purple"> Python (Pandas, NumPy, Scikit-Learn), LangChain, SQL, AWS, GCP, Azure. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building &nbsp;
+              My fields of interest are building &nbsp;
               <i>
-                <b className="purple">Data Pipelines and Statistical/Predictive Models </b>
+                <b className="purple">Agentic AI systems, RAG pipelines, and LLM evaluation harnesses </b>
               </i>
               <br />
-              
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -59,7 +59,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="hhttps://www.linkedin.com/in/ameya-deshmukh-179945a4/"
+                  href="https://www.linkedin.com/in/ameya-deshmukh-179945a4/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

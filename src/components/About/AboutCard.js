@@ -10,9 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify", color: "black" }}>
             Hi Everyone, I am <span className="purple">Ameya Deshmukh </span>
             <br />
-            I am currently Pursuing my Master's in Data Analytics from Northeastern University.
+            I hold a Master's in Data Analytics Engineering from Northeastern University (Dec 2025).
             <br />
-            I am currently mastering my skills in Machine Learning, Database Administration, Data Modeling, and Data Pipelining.
+            I currently work as an AI Engineer at Humanitarians AI, building LLM-powered analytical
+            applications, RAG pipelines, and evaluation harnesses over financial disclosure data.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

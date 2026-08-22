@@ -24,10 +24,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Stock Price Prediction"
-              description=" This is a model of finding path od Stock prices using brownian motion and monte carlo simulation. Utilizing Pandas and Plotly."
-              ghLink="https://github.com/Ameya-Deshmukh26/Stock-Price-prediction-and-Technical-Indicators"
-              
+              title="Production RAG on Financial Disclosures"
+              description="Built a 600-document retrieval system with an MRR and hit-rate evaluation harness on programmatically generated ground truth, comparing 3 embedding models across quality, index build time, query latency, and storage. Profiled per-stage latency across embedding, retrieval, reranking, and generation."
+              ghLink="https://github.com/Ameya-Deshmukh26/fin-disclosure-rag"
             />
           </Col>
 
@@ -35,9 +34,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Recommendation System"
-              description="Always wanted to find a movie that is similar to the one I loved so made this Recommendation system using NLP, Kmeans clusturing and Hierarchical clustering just the nerdy way to simulate 'You might also like!'."
-              ghLink="https://github.com/Ameya-Deshmukh26/Recommendation_System"
+              title="Observable Agent System"
+              description="Built a LangGraph agent with a retry cycle gated by a zero-LLM fabrication validator enforcing provenance and metric thresholds, traced end to end in Opik with 32 passing tests."
+              ghLink="https://github.com/Ameya-Deshmukh26/job-scraper"
             />
           </Col>
 
@@ -45,10 +44,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Machine Learning: SVM & PCA from scratch"
-              description="This is a code for classification of Online news Articles as Popular or Not Popular based on the number of shares.
-                          I have utilized various data cleaning and vaidation techniques and applied PCA for dimentionality reduction. "
-              ghLink="https://github.com/Ameya-Deshmukh26/ML-SVM-from-scratch/tree/main"             
+              title="Multi-Agent RAG Research Assistant"
+              description="Architected a multi-domain agentic research system using LangChain with a centroid-routed RAG pipeline, SQLite memory, and an LLM-as-judge evaluation framework, deployed on HuggingFace."
+              ghLink="https://github.com/Ameya-Deshmukh26/multi-agent-rag"
             />
           </Col>
 
@@ -56,10 +54,29 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="SQL_TravelDatabase"
-              description="Created a Travel SQL Dataset using Python comtaining tables such as Customers,Hotels and Transportation etc. These tables are interlinked and depict how a travel website might look, "
-              ghLink="https://github.com/Ameya-Deshmukh26/SQL_TravelDatabase"
-            
+              title="Congressional Trading Intelligence System"
+              description="Built an MCP multi-agent system using LangChain orchestration linking Capitol Trades data to Yahoo Finance signals, generating LLM alert narratives and surfacing insights via a React dashboard."
+              ghLink="https://github.com/Ameya-Deshmukh26"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="NLP Classification with BERT Fine-tuning"
+              description="Fine-tuned BERT on 910K+ repositories for multi-label classification, achieving 89% accuracy using transfer learning and domain-specific tokenizer adaptation with Hugging Face."
+              ghLink="https://github.com/Ameya-Deshmukh26/bert-classification"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Transformer Language Model from Scratch"
+              description="Built a 4-layer Transformer from scratch in PyTorch implementing multi-head attention, achieving 0.21 validation loss on 50M+ tokens and containerizing the inference pipeline via Docker."
+              ghLink="https://github.com/Ameya-Deshmukh26/Transformer-LLM"
             />
           </Col>
 

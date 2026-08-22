@@ -61,16 +61,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px",color: "Red" }} /><span style={{ color: "black" }}>About</span>
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -92,6 +82,13 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px",color: "Red" }} /><span style={{ color: "black" }}>About</span>
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
